@@ -1,0 +1,59 @@
+.form-field {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-field label {
+  font-weight: bold;
+}
+
+.form-field .form-control,
+.form-field .form-select {
+  margin-bottom: 8px;
+}
+
+.form-field .btn {
+  margin-right: 8px;
+}
+
+.form-field .btn-primary {
+  margin-top: 8px;
+}
+
+.form-field .btn-danger {
+  margin-top: 8px;
+}
+
+.required {
+  position: relative;
+}
+
+.required .text-danger {
+  font-size: 1.2em;
+  position: absolute;
+  top: 0;
+  right: -1em;
+}
+
+.horizontal-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-check-input {
+  margin: 0;
+}
+
+.form-check-label {
+  margin: 0;
+}
